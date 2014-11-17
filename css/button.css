@@ -1,0 +1,34 @@
+@CHARSET "ISO-8859-1";
+
+.button-success, .button-error, .button-warning, .button-secondary {
+	color: white;
+	border-radius: 4px;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+	padding: 10px 15px; 
+	text-decoration: none;
+	font-size: 1.2em;
+	font-weight: bold;
+	/* appearance:button; For Good Browsers
+     -moz-appearance:button; For Firefox
+     -webkit-appearance:button; For Safari and Chrome */
+}
+
+.button-success {
+	background: rgb(28, 184, 65); /* this is a green */
+}
+
+.button-error {
+	/*background: rgb(202, 60, 60);  this is a maroon */
+	background: #d85f03;
+}
+
+.button-warning {
+	background: rgb(223, 117, 20); /* this is an orange */
+}
+
+.button-secondary {
+	background: rgb(66, 184, 221); /* this is a light blue */
+}
+
+/* #d85f03
+211, 89, 3 */
